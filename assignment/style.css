@@ -1,11 +1,42 @@
 /* Give your page a fun background color */
-
+body {
+    background-image: url("https://www.leagueoflegends.com/static/player-guide-map-1440-32575baa2f8d2b2bfd5cfd07e11d1361.png");
+    background-color: teal;
+}
+  
 /* Make the header and footer a different color from the background */
+header{
+    background-color: blueviolet;
+}
 
+footer{background-color: blueviolet;
+}
 /* Align the h1 containing your name in the center of the header*/
+h1{text-align:center;
+color: white;
+}
 
 /* Make your p tag a different color and italic */
+p{
+    font-style: italic;
+    color:white;
+}
 
 /* Put a border around your image */
-
+img{
+    border: 5px solid #555;
+}
+div{
+    text-align: center;
+}
 /* Change the font-family of your list */
+h3{
+    text-align:center;
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration-style: solid;
+    text-decoration-color: white;
+    
+}
+footer{text-align: center;
+}
